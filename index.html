@@ -5,84 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flags of ASIA</title>
     <style>
-    body {font-family: 'Segoe UI'; background-color: #0d0d0d; color: white; text-align: center; margin: 0; padding: 0;}
+    body {font-family: 'century gothic'; background-color: #0d0d0d; color: white; text-align: center; margin: 0; padding: 0;}
     .header {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
     h1 {font-size: 300%; margin: 0; letter-spacing: 3px;}
     .tabs {margin-top: 10px;}
     .tabs a {display: inline-block; padding: 10px 20px; margin: 0 5px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s;}
     .tabs a:hover {background-color: #555;}
     .tabs a.current {background-color: #777; font-weight: bold;}
-    .footer {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
-    .text {width: 50%; font-size: larger; margin: 0 auto;}
-    .map {text-align: center; max-width: 1500px; margin: 0 auto;}
-    .map img {width: 100%; height: auto;}
+    .intro {width: 50%; font-size: larger; margin: 0 auto;}
+    .map {text-align: center; max-width: 1000px; margin: 20px auto;}
+    .map img {width: 100%; height: auto;  border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     .grid {display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px;}
     .flag {position: relative; width: 200px; height: 200px; border-radius: 12px; overflow: hidden;}
     .flag img {width: 100%; height: 100%; object-fit: cover; border-radius: 12px; transition: 0.3s;}
     .flag:hover img {filter: brightness(30%);}
+    .flag:hover .label {opacity: 1;}
     .label {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; padding: 8px; color: white; 
         font-weight: bold; opacity: 0; transition: 0.3s; font-size: 20px; letter-spacing: 1px; width: 90%; max-width: 180px; overflow-wrap: break-word;}
-    .flag:hover .label {opacity: 1;}
+    .footer {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
     </style>
 </head>
 <body>
-
-<div class="header">
-    <h1>Flags of ASIA</h1>
-    <div class="tabs">
-        <a href="index.html" class="current">Home</a>
-        <a href="#">About</a>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-    </div>
-</div>
-
-    <div class="text">
-        <h3>Welcome to the Flags of Asia! </h3>
-        <p> 
-            Explore the diverse and colorful flags of Asian countries. <br>
-            <b>Click</b> on any flag to learn about its <i>history, symbolism, and what makes it unique.</i><br>
-            Discover the stories behind the symbols, colors, and designs that represent nations across the continent.
-        </p>
+    <div class="header">
+        <h1>Flags of ASIA</h1>
+        <div class="tabs">
+            <a href="index.html" class="current">Home</a>
+            <a href="#">About</a>
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+        </div>
     </div>
 
+    <div class="intro">
+        <h3>Discover the Flags of Asia</h3>
+            <p>
+                <b>Click</b> on any flag to explore its <i>history, symbolism,</i> and distinctive features.<br>
+                Learn about the meaning and heritage behind the flags that represent the nations of Asia.
+            </p>
+    </div>
+    
     <div class="grid">
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><span class="label">China</span></a>
-        <a href="southkorea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><span class="label">South Korea</span></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><span class="label">India</span></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><span class="label">China</span></a>
-        <a href="southkorea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><span class="label">South Korea</span></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><span class="label">India</span></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><span class="label">China</span></a>
-        <a href="southkorea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><span class="label">South Korea</span></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><span class="label">India</span></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><span class="label">China</span></a>
-        <a href="southkorea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><span class="label">South Korea</span></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><span class="label">India</span></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><span class="label">China</span></a>
-        <a href="southkorea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><span class="label">South Korea</span></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><span class="label">India</span></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><span class="label">Japan</span></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><span class="label">The Philippines</span></a>
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>    
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
+        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>    
     </div>
 
     <div class="map">
-        <img src="asia-map-chart.png" alt="Map of Asia">
+        <p>Map of Asia</p>
+        <img src="home/asia-map-chart.png" alt="Map of Asia">
     </div>
 
-<div class="footer">
-    <p>bittersweet symphony footer</p>
+    <div class="footer">
+    <p>head, shoulder, knees & toes</p>
 </div>
-
 </body>
 </html>
