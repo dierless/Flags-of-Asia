@@ -4,7 +4,7 @@
 	- meaning / special Display
 	- country description / citizen values
 
-Afghanistan
+(complete) Afghanistan
 (complete) Armenia
 Azerbaijan
 Bahrain
@@ -52,4 +52,5 @@ Turkmenistan
 United Arab Emirates
 Uzbekistan
 Vietnam
+
 Yemen
