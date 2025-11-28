@@ -1,5 +1,5 @@
 	- local name (language + romanization)
-	- flag specifications (proportion, name, adoption)
+	- flag specifications (proportion, name of the flag and local name, adoption)
 	- symbolism (colors, shapes, meaning)
 	- meaning / special Display
 	- country description / citizen values
