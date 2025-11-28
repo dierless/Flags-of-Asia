@@ -5,7 +5,7 @@
 	- country description / citizen values
 
 Afghanistan
-Armenia
+(complete) Armenia
 Azerbaijan
 Bahrain
 Bangladesh
