@@ -38,6 +38,7 @@ Pakistan
 Palestine
 (complete)Philippines
 Qatar
+Russia
 Saudi Arabia
 Singapore
 (complete) South Korea
@@ -52,4 +53,5 @@ Turkmenistan
 United Arab Emirates
 Uzbekistan
 Vietnam
+
 Yemen
