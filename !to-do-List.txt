@@ -4,7 +4,6 @@
 	- meaning / special Display
 	- country description / citizen values
 
-in-page; flags; maps:
 - (complete) Afghanistan
 - (complete) Armenia
 Azerbaijan
@@ -16,6 +15,7 @@ Cambodia
 - (complete) China
 Cyprus
 Georgia
+- (complete) Hong Kong
 - (complete) India 
 Indonesia
 Iran
@@ -55,6 +55,3 @@ United Arab Emirates
 Uzbekistan
 - (complete) Vietnam
 Yemen
-
-
-
