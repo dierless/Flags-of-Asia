@@ -1,28 +1,24 @@
-body {font-family: 'century gothic'; background-color: #0d0d0d;
-    color: white; margin: 0; padding: 0; line-height: 1.6; text-align: center;}
+body {font-family: 'century gothic'; background-color: #0d0d0d; color: white; margin: 0; 
+    padding: 0; line-height: 1.6; text-align: center;}
 .header {background-color: #1a1a1a; padding: 20px; margin-bottom: 20px;}
 
-/* go back */
-.back {display: inline-block; color: rgba(255, 255, 255, 0.5); text-decoration: none;
+.back {display: inline-block; color: rgba(255, 255, 255, 0.5); text-decoration: none; 
     font-size: 15px; margin-bottom: 10px; transition: 0.3s;}
 .back:hover {color: #ffffff;}
 
-/* flag */
 h1 {font-size: 2.5em; margin: 20px 0 10px 0; letter-spacing: 2px;}
 .flag {width: 100%; max-width: 600px; height: auto; border-radius: 12px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); margin: 0 auto; display: block;}
-
 .main {max-width: 1200px; margin: 0 auto; padding: 20px;}
 
-/* desc */
 .info {text-align: left; max-width: 800px; margin: 0 auto 40px auto;}
-.info h2 {font-size: 1.8em; margin-top: 30px; margin-bottom: 10px; 
-    color: #fff; border-bottom: 2px solid #333; padding-bottom: 5px;}
+.info h2 {font-size: 1.8em; margin-top: 30px; margin-bottom: 10px; color: #fff; 
+    border-bottom: 2px solid #333; padding-bottom: 5px;}
 .info ul {padding-left: 20px;}
-.info li {margin-bottom: 5px;}
+.info li {margin-left: 30px; margin-bottom: 5px;}
 .info p {margin-bottom: 15px;}
 
-/* map */
-.map-section {text-align: center; margin-top: 40px;}
-.map-image {width: 100%; max-width: 800px; height: auto; 
-    border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+.map {text-align: center; margin: 50px 0;}
+.map img {width: 100%; max-width: 800px; height: auto; border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); transition: 0.3s;}
+.map img:hover {transform: scale(1.15); filter: brightness(30%) saturate(600%);}
