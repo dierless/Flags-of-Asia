@@ -1,57 +1,67 @@
-	- local name (language + romanization)
-	- flag specifications (proportion, name of the flag and local name, adoption)
-	- symbolism (colors, shapes, meaning)
-	- meaning / special Display
-	- country description / citizen values
+	each :
+	- 	local name (language + romanization)
+	- 	flag specifications (proportion, name of the flag and local name, adoption)
+	- 	symbolism (colors, shapes, meaning)
+	- 	meaning / special Display
+	- 	country description / citizen values
 
-- (complete) Afghanistan
-- (complete) Armenia
-- (complete) Azerbaijan
-- (complete) Bahrain
+	want to add :
+	-	previous and next button (flag page)
+	-	expound flag history
+	-	asia map
+	-	legend
+	-	clickable legend links
+	-	proper about page
+
+	flag pages :
+-	(complete) Afghanistan
+-	(complete) Armenia
+-	(complete) Azerbaijan
+-	(complete) Bahrain
 Bangladesh
 Bhutan
-- (complete) Brunei
+-	(complete) Brunei
 Cambodia
-- (complete) China
+-	(complete) China
 Cyprus
 Georgia
-- (complete) Hong Kong
-- (complete) India 
-- (complete) Indonesia
+-	(complete) Hong Kong
+-	(complete) India 
+-	(complete) Indonesia
 Iran
 Iraq
 Israel
-- (complete) Japan
+-	(complete) Japan
 Jordan
 Kazakhstan
 Kuwait
 Kyrgyzstan
 Laos
 Lebanon
-- (complete) Malaysia
+- 	(complete) Malaysia
 Maldives
 Mongolia
 Myanmar (Burma)
 Nepal
-- (complete) North Korea
+- 	(complete) North Korea
 Oman
 Pakistan
 Palestine
-- (complete) Philippines
+- 	(complete) Philippines
 Qatar
-- (complete) Russia
+- 	(complete) Russia
 Saudi Arabia
-- (complete) Singapore
-- (complete) South Korea
+- 	(complete) Singapore
+- 	(complete) South Korea
 Sri Lanka
 Syria
 Taiwan
 Tajikistan
-- (complete) Thailand
-- (complete) Timor-Leste (East Timor)
+- 	(complete) Thailand
+- 	(complete) Timor-Leste (East Timor)
 Turkey
 Turkmenistan
 United Arab Emirates
 Uzbekistan
-- (complete) Vietnam
-- (complete) Yemen
+- 	(complete) Vietnam
+- 	(complete) Yemen
