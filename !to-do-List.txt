@@ -6,7 +6,7 @@
 
 - (complete) Afghanistan
 - (complete) Armenia
-Azerbaijan
+- (complete) Azerbaijan
 Bahrain
 Bangladesh
 Bhutan
@@ -17,7 +17,7 @@ Cyprus
 Georgia
 - (complete) Hong Kong
 - (complete) India 
-Indonesia
+- (complete) Indonesia
 Iran
 Iraq
 Israel
@@ -48,10 +48,10 @@ Syria
 Taiwan
 Tajikistan
 - (complete) Thailand
-Timor-Leste (East Timor)
+- (complete) Timor-Leste (East Timor)
 Turkey
 Turkmenistan
 United Arab Emirates
 Uzbekistan
 - (complete) Vietnam
-Yemen
+- (complete) Yemen
