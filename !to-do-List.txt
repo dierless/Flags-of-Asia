@@ -8,7 +8,8 @@
 	want to add :
 	-	previous and next button (flag page)
 	-	expound flag history
-	-	asia map
+	-	whole asia map
+	-	map for each flag page
 	-	legend
 	-	clickable legend links
 	-	proper about page
